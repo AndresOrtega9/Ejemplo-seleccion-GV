@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controlador/Inicio.master.cs" Inherits="Vista_Inicio" %>
+	  <link rel="shortcut icon" type="image/x-icon" href="../Imagenes/b-ticket.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<html>
+<head runat="server">
+	
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+	<style type="text/css">
+
+     body {
+ 
+  background-image: url("../Imagenes/Fondo_Master.jpg");
+}
+		.auto-style1 {
+			width: 100%;
+		}
+		.auto-style2 {
+			width: 25%;
+		}
+		.auto-style3 {
+			width: 25%;
+		}
+		.auto-style4 {
+			width: 25%;
+		}
+		.auto-style5 {
+			width: 25%;
+		}
+		.auto-style7 {
+			width: 25%;
+			height: 23px;
+		}
+		.nuevoEstilo1 {
+			font-size: 100px;
+			text-decoration: blink;
+			font-family: "bodoni MT";
+			font-weight: normal;
+			font-style: inherit;
+			font-variant: normal;
+			text-transform: uppercase;
+		}
+		.nuevoEstilo2 {
+			font-size: 80px;
+			font-family: "bodoni MT";
+		}
+		.auto-style9 {
+			height: 23px;
+			text-align: center;
+		}
+		.auto-style11 {
+			height: 23px;
+		}
+	</style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="auto-style1">
+		<tr>
+			<td class="auto-style7"></td>
+			<td class="auto-style9" colspan="2">
+				<asp:Image ID="I_Inicio3" runat="server" ImageUrl="~/Imagenes/logo_tt.png" Width="20%" />
+			</td>
+			<td class="auto-style7"></td>
+		</tr>
+		<tr>
+			<td class="auto-style2">&nbsp;</td>
+			<td class="auto-style3">&nbsp;</td>
+			<td class="auto-style4">&nbsp;</td>
+			<td class="auto-style5">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="auto-style2">&nbsp;</td>
+			<td colspan="2">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    		</td>
+			<td class="auto-style5">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="auto-style7"></td>
+			<td class="auto-style11" colspan="2"></td>
+			<td class="auto-style7"></td>
+		</tr>
+		<tr>
+			<td class="auto-style2">&nbsp;</td>
+			<td colspan="2">&nbsp;</td>
+			<td class="auto-style5">&nbsp;</td>
+		</tr>
+	</table>
+    <div>
+    </div>
+    </form>
+</body>
+</html>
